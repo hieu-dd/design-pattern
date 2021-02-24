@@ -1,5 +1,10 @@
 package factory
 
+/**
+Abstract Factory is a creational design pattern that provide an
+interface for creating families of  related or dependent objects
+without specifying their concrete classes.
+ **/
 class BankFactory {
     companion object {
         fun getBank(bankType: BankType): Bank {
