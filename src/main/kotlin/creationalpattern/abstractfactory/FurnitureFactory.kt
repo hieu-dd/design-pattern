@@ -1,11 +1,10 @@
-package abstractfactory
+package creationalpattern.abstractfactory
 
 object FurnitureFactory {
     fun getFurnitureFactory(type: MaterialType): FurnitureAbstractFactory {
         return when (type) {
             MaterialType.PLASTIC -> PlasticFactory()
             MaterialType.WOOD -> WoodFactory()
-            else -> throw IllegalArgumentException("Invalid type")
         }
     }
 }

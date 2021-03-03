@@ -1,4 +1,4 @@
-package factory
+package creationalpattern.factory
 
 class TPBank : Bank {
     override fun getName(): String {

@@ -1,4 +1,4 @@
-package abstractfactory
+package creationalpattern.abstractfactory
 
 abstract class FurnitureAbstractFactory {
     abstract fun createChair(): Chair

@@ -1,4 +1,4 @@
-package abstractfactory
+package creationalpattern.abstractfactory
 
 class PlasticFactory : FurnitureAbstractFactory() {
     override fun createChair(): Chair {

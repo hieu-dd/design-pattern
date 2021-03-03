@@ -1,4 +1,4 @@
-package factory
+package creationalpattern.factory
 
 /**
 Abstract Factory is a creational design pattern that provide an

@@ -1,3 +1,5 @@
+package creationalpattern.singleton
+
 class Singleton private constructor() {
     companion object {
         private var instance: Singleton? = null
